@@ -1,0 +1,20 @@
+install steps
+-install imageio 
+	pip install imageio
+	pip install cv2
+-download ffmpeg
+	run down.py
+
+run steps
+-create directory "vids" besides video.py and convert
+-put videos in the directory "vids"
+-add executable permission if required
+	chmod +x convert
+-run the conversion
+	./convert
+-a folder will be created having all folders of frames of the videos 
+
+
+errors
+-OSError: [Errno 26] Text file busy
+	kill -9 down.py

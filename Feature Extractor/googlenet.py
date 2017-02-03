@@ -4,6 +4,7 @@ import os, sys, getopt
 # Main path to your caffe installation
 #todo change to your caffe home location
 caffe_root = '/home/magedmilad/caffe/'
+# needed to be adjusted on every device 
 
 # Model prototxt file
 model_prototxt = caffe_root + 'models/bvlc_googlenet/deploy.prototxt'

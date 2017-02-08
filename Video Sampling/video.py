@@ -25,4 +25,4 @@ if not os.path.isdir(path):
 
 for i in range(0, num_frames-1, fps):
 	cv2.imwrite("{}image{}.jpg".format(path, i), cv2.resize(vid.get_data(i), SIZE))
-	cv2.imwrite("{}image{}.jpg".format(path, i + int(fps / 2)), cv2.resize(vid.get_data(i + int(fps / 2) ), SIZE))
+	cv2.imwrite("{}image{}.jpg".format(path, i + int(fps / 2)), cv2.resize(vid.get_data(min(i + int(fps / 2), num_frames-1)), SIZE))

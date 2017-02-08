@@ -8,6 +8,8 @@ install steps
 run steps
 -create directory "vids" besides video.py and convert
 -put videos in the directory "vids"
+-create directory "mat" besides video.py and convert
+-put mat files in the directory "mat"
 -add executable permission if required
 	chmod +x convert
 -run the conversion

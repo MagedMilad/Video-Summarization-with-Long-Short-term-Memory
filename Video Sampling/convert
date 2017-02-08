@@ -2,5 +2,5 @@
 for f in vids/*
 do
   echo "Processing $f..."
-  python video.py $f folder
+  python video.py $f frames mat output
 done

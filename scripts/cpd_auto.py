@@ -22,8 +22,7 @@ def cpd_auto(K, ncp, vmax, desc_rate=1, **kwargs):
         cps   - best selected change-points
         costs - costs for 0,1,2,...,m change-points
         
-    Memory requirement: ~ (3*N*N + N*ncp)*4 bytes ~= 16 * N^2 bytes
-    That is 1,6 Gb for the N=10000.
+    
     """
     m = ncp
     (_, scores) = cpd_nonlin(K, m, backtrack=False, **kwargs)

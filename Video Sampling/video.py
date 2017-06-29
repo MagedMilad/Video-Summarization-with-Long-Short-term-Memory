@@ -9,7 +9,7 @@ FRAMES_FOLDER_NAME = sys.argv[2]
 MAT_FOLDER_NAME = sys.argv[3]
 OUTPUT_FOLDER_NAME = sys.argv[4]
 #VID_NAME = 'test.mp4'
-#FOLDER_NAME = VID_NAME.split('.')[0]
+
 FRAMES = 2
 SIZE = (256, 256)
 

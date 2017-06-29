@@ -1,7 +1,7 @@
 import numpy as np
 import os, sys, getopt
 
-# Main path to your caffe installation
+
 #todo change to your caffe home location
 caffe_root = '/home/magedmilad/caffe/'
 # needed to be adjusted on every device 
